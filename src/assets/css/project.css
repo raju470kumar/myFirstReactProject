@@ -1,0 +1,80 @@
+.headingdiv h2 {
+    text-align: left;
+    text-transform:capitalize;
+    font-size: 16px;
+    color: #000000c7;
+}.headingdiv {
+    padding: 40px 0px;
+    background: #f2f2f2;
+}
+.project-head{
+    text-align: -webkit-center;
+    padding: 30px 0px;
+}.hrrow{
+    text-align:center!important;
+    width: 6%;
+    background: #ffc30c;
+    opacity: 1;
+}
+.project-head h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 28px;
+    color: #000000c7;
+    font-family: 'Montserrat', sans-serif;
+}.projectheading h2 {
+    color: black;
+    font-size: 18px;
+    text-align: left;
+    padding: 5px 10px 15px 10px;
+}.project-card {
+    margin: 12px 0px;
+    background-color: #f2f2f2;
+}
+.project-img{
+    position: relative;
+    overflow: hidden;
+}.projectover {
+    position: absolute;    
+    left: 0;
+    right: 0;     
+    transition: 0.7s;
+}
+.project-card:hover .projectover {   
+  height: 165px; 
+  position: absolute;
+  top: 0%;
+  animation-name: scale-up-center;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  background-color: rgba(0,0,0,0.7);   
+   
+}@keyframes scale-up-center {
+    0%{
+      -webkit-transform: scale(.2);
+      transform: scale(.2);
+    }
+    100%{
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  }.projectover span {
+    position: relative;
+    top: 35%;
+    left: 125px;
+} 
+.what-do h2{
+    text-align: left;
+    text-transform:capitalize;
+    font-size: 20px;
+    color: #000000c7;
+}
+.what-do p {
+    font-size: 15px;
+    padding: 15px 0px;
+}
+

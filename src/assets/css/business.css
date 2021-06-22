@@ -1,0 +1,28 @@
+.headingdiv h2 {
+    text-align: left;
+    text-transform:capitalize;
+    font-size: 16px;
+    color: #000000c7;
+}.headingdiv {
+    padding: 40px 0px;
+    background: #f2f2f2;
+}.business-head h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 28px;
+    color: #000000c7;
+    font-family: 'Montserrat', sans-serif;
+}
+.hrrow{
+    text-align:center!important;
+    width: 13%;
+    background: #ffc30c;
+    opacity: 1;
+}.business-head {
+    text-align: -webkit-center;
+    margin: 50px 0px;
+}.container.padd-2 {
+    margin-bottom: 60px;
+}.business-head p {
+    font-size: 15px;
+}
